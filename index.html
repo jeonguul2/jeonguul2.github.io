@@ -30,6 +30,18 @@
             font-size: 20px; /* 크기도 적당히 조절 */
             line-height: 1.4;
         }
+        /* 네비게이션 메뉴 간격 및 폰트 조절 */
+        .navbar-nav > li > .nav-link {
+            padding-left: 10px !important; /* 기존보다 간격을 좁힘 */
+            padding-right: 10px !important;
+            font-size: 13px; /* 폰트 크기를 살짝 줄임 */
+        }
+        /* 본문 섹션 제목이 한 줄로 길게 나오도록 설정 */
+        .resume-wrap .text h2 {
+            width: 100%; /* 제목이 가로를 꽉 채우도록 */
+            display: block;
+            word-break: keep-all; /* 단어 단위로 끊기게 하여 가독성 향상 */
+        }
 
         /* 날짜와 기관명 색상도 조금 더 부드럽게 */
         .resume-wrap .text .date {
@@ -67,7 +79,7 @@
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
 					<li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
-					<li class="nav-item"><a href="#awards-section" class="nav-link"><span>Awards&Certificates</span></a></li>
+					<li class="nav-item"><a href="#awards-section" class="nav-link"><span>Awards&Certs</span></a></li>
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#publications-section" class="nav-link"><span>Publications</span></a></li>
 					<li class="nav-item">
@@ -234,8 +246,7 @@
 						</div>
 
 					</div>
-					<div class="col-md-9" id="education-section">
-						<div id="page-2" class="page two">
+				
 							<h2 id="experience-section" class="heading">Experience</h2>
 							
 							<div class="resume-wrap d-flex ftco-animate">
@@ -488,7 +499,7 @@
 
 					</div>
 					<div id="page-5" class="page five">
-						<h2 class="heading">Publications</h2>
+						<h2 id="publications-section" class="heading">Publications</h2>
 
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
