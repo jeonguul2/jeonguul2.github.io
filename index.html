@@ -22,6 +22,24 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		/* 프로젝트 및 논문 제목 스타일 수정 */
+		.resume-wrap .text h2 {
+			font-weight: 500 !important; /* 너무 두껍지 않게 (기본은 700) */
+			color: #444444 !important; /* 완전 검은색(#000) 대신 짙은 회색으로 */
+			font-size: 20px; /* 크기도 적당히 조절 */
+			line-height: 1.4;
+		}
+
+		/* 날짜와 기관명 색상도 조금 더 부드럽게 */
+		.resume-wrap .text .date {
+			color: #666666;
+		}
+
+		.resume-wrap .text .position {
+			color: #555555;
+		}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -54,7 +72,7 @@
 			</div>
 		</div>
 	</nav>
-	<section class="hero-wrap js-fullheight">
+	<section class="hero-wrap js-fullheight" id="home-section">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
@@ -86,7 +104,7 @@
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
 						<div class="img d-flex align-self-stretch align-items-center"
-							 style="background-image:url(images/about.jpg);">
+							 style="background-image:url(images/about.png);">
 						</div>
 					</div>
 				</div>
@@ -395,7 +413,7 @@
 							<div class="text pl-3">
 								<span class="date">2025.06-2026.03</span>
 								<h2>
-									2030 국가호보지역 확대 로드맵 이행계획 마련 연구
+									2030 국가보호지역 확대 로드맵 이행계획 마련 연구
 								</h2>
 								<span class="position">기후에너지환경부</span>
 								<p>
@@ -531,7 +549,7 @@
 					<div class="row no-gutters">
 						<div class="col-md-4">
 							<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-								 style="background-image: url(images/side-project-1.png);">
+								 style="background-image: url(images/side-project-1.png); ">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
 									<h3><a target="_blank" href="https://qpi.kr/"> 스포츠 빅데이터 전략 시뮬레이션 모델</a></h3>
