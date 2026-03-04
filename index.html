@@ -30,12 +30,40 @@
             font-size: 20px; /* 크기도 적당히 조절 */
             line-height: 1.4;
         }
+        /* 1. 화면 좌우 여백 확장 (기존보다 10px 이상 더 넓게 사용) */
+        #resume-section .container {
+            max-width: 95% !important;
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }
+
         /* 3. 좌측 메뉴 위치 초기화 및 스티키 설정 */
         #navi {
             position: sticky;
-            top: 100px;
+            top: 110px;
+			z-index: 10;
             margin-left: 0 !important; /* 억지로 밀었던 마진 제거 */
         }
+        /* 3. 프로젝트 버튼 레이아웃 수정 (넘침 방지) */
+        .project-title-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap; /* 화면이 좁아지면 버튼이 아래로 자연스럽게 내려감 */
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .project-btns {
+            display: flex;
+            gap: 5px;
+        }
+
+        .project-btns .btn {
+            padding: 5px 10px !important;
+            font-size: 12px !important;
+        }
+
         /* 섹션 제목 스타일 일치 */
         .heading {
             color: #262626 !important;
