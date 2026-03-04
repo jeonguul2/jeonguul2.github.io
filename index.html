@@ -36,7 +36,13 @@
             padding-left: 30px !important;
             padding-right: 30px !important;
         }
-
+        /* 2. 상단 메뉴 한 줄로 고정 (간격 및 폰트 미세 조절) */
+        .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+            padding-left: 8px !important;
+            padding-right: 8px !important;
+            font-size: 13px !important;
+            letter-spacing: -0.5px; /* 글자 간격을 좁혀 한 줄에 넣음 */
+        }
         /* 3. 좌측 메뉴 위치 초기화 및 스티키 설정 */
         #navi {
             position: sticky;
@@ -221,6 +227,7 @@
 				</div>
 			</div>
 		</div>
+	</section>
 	
 
 
@@ -239,340 +246,341 @@
 					</nav>
 				</div>
 				<d class="col-md-9">
-					<div id="page-1" class="page one">
-						<h2 id ="eudcation-section"class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2016-2022</span>
-								<h2>지리교육학 전공</h2>
-								<span class="position">Dongguk University</span>
 
+						<div id="page-1" class="page one">
+							<h2 id="education-section" class="heading">Education</h2>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2016-2022</span>
+									<h2>지리교육학 전공</h2>
+									<span class="position">Dongguk University</span>
+
+								</div>
 							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2014-2015</span>
+									<h2>지리학</h2>
+									<span class="position">Dongguk University</span>
+
+								</div>
+							</div>
+
 						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>지리학</h2>
-								<span class="position">Dongguk University</span>
 
-							</div>
-						</div>
 
-					</div>
-				
-				
-					<div id="page-2" class="page two">
-						<h2 id="experience-section" class="heading">Experience</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024.02-2025.05(1년 4개월)</span>
-								<h2>Data-driven Sales</h2>
-								<span class="position">누리미디어</span>
-								<div style="margin-top: 10px; margin-bottom: 15px;">
-									<div> 학술 콘텐츠 제휴 및 매거진·학회 대상 아웃바운드 영업</div>
-									<div>데이터 기반 잠재 고객 발굴 및 타겟 세분화 전략 수립</div>
+						<div id="page-2" class="page two">
+							<h2 id="experience-section" class="heading">Experience</h2>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2024.02-2025.05(1년 4개월)</span>
+									<h2>Data-driven Sales</h2>
+									<span class="position">누리미디어</span>
+									<div style="margin-top: 10px; margin-bottom: 15px;">
+										<div> 학술 콘텐츠 제휴 및 매거진·학회 대상 아웃바운드 영업</div>
+										<div>데이터 기반 잠재 고객 발굴 및 타겟 세분화 전략 수립</div>
+									</div>
+
+									<b class="text-primary">기술 스택</b>
+									<p>Python, Tableau, Google Analytics</p>
+									<b class="text-primary">주요 업무 </b>
+									<div>
+										<div> - 내부 DB 및 이용패턴을 활용한 잠재 제휴 기관 리스트업</div>
+										<div> - 콘텐츠 이용 패턴 및 검색 키워드 분석을 통한 핵심 고객군 세분화 및 타겟팅 전략 수립</div>
+										<div> - SEO 확대를 위한 키워드 트렌트 분석</div>
+										<div> - 매출·계약 전환 데이터 기반 영업 성과 분석 </div>
+									</div>
+
 								</div>
 
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2025.06~현재</span>
+								<h2>Researcher</h2>
+								<span class="position">한국환경연구원(KEI)</span>
+								<p>공간 빅데이터를 활용한 환경정책 의사결정 지원<br /></p>
+								<p>공간 기반 환경평가 알고리즘 개발<br /></p>
 								<b class="text-primary">기술 스택</b>
-								<p>Python, Tableau, Google Analytics</p>
+								<p>Python, PostGIS, GeoServer</p>
 								<b class="text-primary">주요 업무 </b>
 								<div>
-									<div> - 내부 DB 및 이용패턴을 활용한 잠재 제휴 기관 리스트업</div>
-									<div> - 콘텐츠 이용 패턴 및 검색 키워드 분석을 통한 핵심 고객군 세분화 및 타겟팅 전략 수립</div>
-									<div> - SEO 확대를 위한 키워드 트렌트 분석</div>
-									<div> - 매출·계약 전환 데이터 기반 영업 성과 분석 </div>
+									<div> - 전국단위 보호지역, 환경공간정보 등 다층 공간데이터 분석 및 전처리</div>
+									<div> - 공간 중첩 및 형태지수 기반 지역 탐지 알고리즘 개발</div>
+									<div> - ViT 기반 딥러닝 모델을 활용한 도시 내 행태학적 환경요소 분석</div>
+									<div> - 공간 쿼리 및 대용량 연산 자동화</div>
+									<div> - 교통 빅데이터를 활용한 도시환경 분석 알고리즘 개발</div>
 								</div>
 
 							</div>
-
 						</div>
-					</div>
-				
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.06~현재</span>
-							<h2>Researcher</h2>
-							<span class="position">한국환경연구원(KEI)</span>
-							<p>공간 빅데이터를 활용한 환경정책 의사결정 지원<br /></p>
-							<p>공간 기반 환경평가 알고리즘 개발<br /></p>
-							<b class="text-primary">기술 스택</b>
-							<p>Python, PostGIS, GeoServer</p>
-							<b class="text-primary">주요 업무 </b>
-							<div>
-								<div> - 전국단위 보호지역, 환경공간정보 등 다층 공간데이터 분석 및 전처리</div>
-								<div> - 공간 중첩 및 형태지수 기반 지역 탐지 알고리즘 개발</div>
-								<div> - ViT 기반 딥러닝 모델을 활용한 도시 내 행태학적 환경요소 분석</div>
-								<div> - 공간 쿼리 및 대용량 연산 자동화</div>
-								<div> - 교통 빅데이터를 활용한 도시환경 분석 알고리즘 개발</div>
-							</div>
-
-						</div>
-					</div>
-
-				
-				<div id="page-3" class="page three">
-					<h2 id="awards-section" class="heading">Awards & Certificates</h2>
 
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2023</span>
-							<h2>2023 환경데이터 활용 및 분석 공모전</h2>
-							<span class="position">우수상</span>
-							<p>딥러닝 기반 소형 해양쓰레기 시각화 및 감지 자동화 프로세스 개발</p>
-						</div>
-					</div>
+						<div id="page-3" class="page three">
+							<h2 id="awards-section" class="heading">Awards & Certificates</h2>
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2022</span>
-							<h2>2022 서울특별시 디지털 공간정보 활용 공모전</h2>
-							<span class="position">특별상</span>
-							<p>강북구 어린이 보호구역의 어린이 교통사고 분석</p>
-						</div>
-					</div>
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<h2 class="mb-2">Professional Certificates</h2>
-
-							<div class="mb-3">
-								<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">빅데이터분석기사</h2>
-								<span class="position" style="display: block; margin-bottom: 5px;">Bigdata Analysis Engineer</span>
-							</div>
-
-							<div class="mb-3">
-								<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">정보처리기사</h2>
-								<span class="position" style="display: block; margin-bottom: 5px;">Engineer Information Processing</span>
-							</div>
-
-							<div class="mb-3">
-								<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">지적기사</h2>
-								<span class="position" style="display: block; margin-bottom: 5px;">Engineer Cadastral Surveying</span>
-							</div>
-
-							<div class="mb-3">
-								<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">측량및지형공간정보기사</h2>
-								<span class="position" style="display: block; margin-bottom: 5px;">Engineer Surveying Geo-Spatial Information</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-4" class="page four">
-					<h2 id="projects-section" class="heading">Projects</h2>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2022.05-2023.04</span>
-							<div class="d-flex">
-								<h2>머신 러닝을 적용한 교통 빅데이터 분석 기법 개발</h2>
-								<div>
-									&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											 class="btn btn-outline-secondary"
-											 href="https://github.com/congchu/portfolio-template-2">Github</a>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-																											href="/images/project_1_screenshot.png">스크린샷</a>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-																																									 href="https://www.wellytravel.com/">Link</a>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2023</span>
+									<h2>2023 환경데이터 활용 및 분석 공모전</h2>
+									<span class="position">우수상</span>
+									<p>딥러닝 기반 소형 해양쓰레기 시각화 및 감지 자동화 프로세스 개발</p>
 								</div>
 							</div>
-							<span class="position">과학기술정보통신부</span>
-							<div>
-								<b class="text-dark">기술 스택 : </b>Python, Tableau
+
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2022</span>
+									<h2>2022 서울특별시 디지털 공간정보 활용 공모전</h2>
+									<span class="position">특별상</span>
+									<p>강북구 어린이 보호구역의 어린이 교통사고 분석</p>
+								</div>
 							</div>
-							<div> <b class="text-dark">주요 내용 : </b> 교통 빅데이터 수집, 크롤링, 3D 시공간 큐브 기반의 머신 러닝 기법 적용</div>
 
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2022.07-2022.10</span>
-							<h2>북극권(캐나다 앨버타주 대상) 엔지니어링서비스레이어 데이터 셋 구축 및 자원 개발 최적 위치 선정 모형 개발</h2>
-							<span class="position">한국건설기술연구원</span>
-							<p>적지 선정 알고리즘 및 머신러닝(RF&XGBoost)을 활용한 정량적 평가모델 개발</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2022.08-2022.11</span>
-							<h2>지오 블록체인을 이용한 지리참조체계의 암호화</h2>
-							<span class="position">공간정보연구원</span>
-							<p>지리참조체계를 암호화하기 위해 이더리움 기반의 스마트 컨트랙트를 구현하고 블록체인 주소와 연계된 공간주소 생성</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2023.06-2023.12</span>
-							<h2>K-문화공간 체험을 위한 다차원 공간주소모델과 지리공간 블록체인 기술 개발</h2>
-							<span class="position">교육부</span>
-							<p>공간주소 모델을 위한 데이터 크롤링, 시각화, ESDA 및 지오해시를 활용한 스마트 컨트랙트 구현과 시각화</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2023.06-2023.12</span>
-							<h2>제3차 공간정보 인재양성 기본계획 연구</h2>
-							<span class="position">공간정보산업진흥원</span>
-							<p>공간정보 인재양성 국내외 트렌드, 동향분석, 인력 수요 검토, 시사점 도출을 위한 웹페이지 크롤링, 워드 클라우드 제작</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.06-2026.03</span>
-							<h2>
-								2030 국가보호지역 확대 로드맵 이행계획 마련 연구
-							</h2>
-							<span class="position">기후에너지환경부</span>
-							<p>
-								전국 단위 보호지역, 기타 주제도 등 다층 공간데이터를 통합하여 PostGIS 기반 대용량 공간분석 수행 및 정책 시나리오별 면적 산정 체계 구축
-							</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.06-2026.03</span>
-							<h2>
-								국토환경 녹색복원 후보목록 3차년도 조사연구
-							</h2>
-							<span class="position">기후에너지환경부</span>
-							<p>
-								전국 단위 훼손(의심)지역을 자동 필터링하기 위한 규칙 기반(Rule-based) 및 형태 안정성 지표 결합 알고리즘 설계
-							</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.08-2026.03</span>
-							<h2>
-								머신러닝과 스트리트뷰 이미지(SVI)를 활용한 도시 지역 소음 평가
-							</h2>
-							<span class="position">-</span>
-							<p>머신러닝과 ViT를 활용한 소음 전파원 기반의 도시 소음 모델링 </p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.08-2026.06</span>
-							<h2>
-								개발제한구역 환경평가 개선방안 연구
-							</h2>
-							<span class="position">국토교통부</span>
-							<p>
-								공간평가 체계를 재설계 및 환경평가 지표 가중치 시나리오를 반영한 대규모 공간 시뮬레이션 수행
-							</p>
-						</div>
-					</div>
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025.12-2026.06</span>
-							<h2>
-								유연한 이웃 구조 알고리즘을 기반으로 한 따릉이 출발-목적지 흐름의 시공간 클러스터 분석
-							</h2>
-							<span class="position">-</span>
-							<p>공간구조별 유연한 이웃 정의 알고리즘을 개발하고 이를 바탕으로 시공간 클러스터 평가 수행</p>
-						</div>
-					</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<h2 class="mb-2">Professional Certificates</h2>
 
-				</div>
-				<div id="page-5" class="page five">
-					<h2 id="publications-section" class="heading">Publications</h2>
+									<div class="mb-3">
+										<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">빅데이터분석기사</h2>
+										<span class="position" style="display: block; margin-bottom: 5px;">Bigdata Analysis Engineer</span>
+									</div>
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2025</span>
-							<div class="d-flex">
-								<h2>Enhancing smart city infrastructure with a geospatial blockchain-based addressing system</h2>
-								<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.1016/j.cities.2025.105757">DOI</a></div>
+									<div class="mb-3">
+										<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">정보처리기사</h2>
+										<span class="position" style="display: block; margin-bottom: 5px;">Engineer Information Processing</span>
+									</div>
+
+									<div class="mb-3">
+										<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">지적기사</h2>
+										<span class="position" style="display: block; margin-bottom: 5px;">Engineer Cadastral Surveying</span>
+									</div>
+
+									<div class="mb-3">
+										<h2 style="font-size: 20px; color: #000; margin-bottom: 0;">측량및지형공간정보기사</h2>
+										<span class="position" style="display: block; margin-bottom: 5px;">Engineer Surveying Geo-Spatial Information</span>
+									</div>
+								</div>
 							</div>
-							<span class="position">J Lee, B Yang</span>
-							<p>Cities</p>
 						</div>
-					</div>
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2024</span>
-							<div class="d-flex">
-								<h2>Establishing a Geospatial Blockchain and Web-based Mapping Platform for Address Intelligence Information: A Focus on Cultural Heritage Sites</h2>
-								<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.7848/ksgpc.2024.42.6.665">DOI</a></div>
-							</div>
-							<span class="position">B Yang, S Jo, J Lee</span>
-							<p>Journal of the Korean Society of Surveying, Geodesy, Photogrammetry and Cartography</p>
-						</div>
-					</div>
+						<div id="page-4" class="page four">
+							<h2 id="projects-section" class="heading">Projects</h2>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2022.05-2023.04</span>
+									<div class="d-flex">
+										<h2>머신 러닝을 적용한 교통 빅데이터 분석 기법 개발</h2>
+										<div>
+											&nbsp;<a class="btn btn-outline-secondary" target="_blank"
+													 class="btn btn-outline-secondary"
+													 href="https://github.com/congchu/portfolio-template-2">Github</a>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
+																												  href="/images/project_1_screenshot.png">스크린샷</a>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
+																												   href="https://www.wellytravel.com/">Link</a>
+										</div>
+									</div>
+									<span class="position">과학기술정보통신부</span>
+									<div>
+										<b class="text-dark">기술 스택 : </b>Python, Tableau
+									</div>
+									<div> <b class="text-dark">주요 내용 : </b> 교통 빅데이터 수집, 크롤링, 3D 시공간 큐브 기반의 머신 러닝 기법 적용</div>
 
-					<div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-ideas"></span>
-						</div>
-						<div class="text pl-3">
-							<span class="date">2024</span>
-							<div class="d-flex">
-								<h2>Developing an Address of Space Model Using Smart Contract of Geospatial Blockchain</h2>
-								<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.7848/ksgpc.2022.40.6.655">DOI</a></div>
+								</div>
 							</div>
-							<span class="position">J Lee, B Yang</span>
-							<p>Journal of the Korean Society of Surveying, Geodesy, Photogrammetry and Cartography</p>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2022.07-2022.10</span>
+									<h2>북극권(캐나다 앨버타주 대상) 엔지니어링서비스레이어 데이터 셋 구축 및 자원 개발 최적 위치 선정 모형 개발</h2>
+									<span class="position">한국건설기술연구원</span>
+									<p>적지 선정 알고리즘 및 머신러닝(RF&XGBoost)을 활용한 정량적 평가모델 개발</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2022.08-2022.11</span>
+									<h2>지오 블록체인을 이용한 지리참조체계의 암호화</h2>
+									<span class="position">공간정보연구원</span>
+									<p>지리참조체계를 암호화하기 위해 이더리움 기반의 스마트 컨트랙트를 구현하고 블록체인 주소와 연계된 공간주소 생성</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2023.06-2023.12</span>
+									<h2>K-문화공간 체험을 위한 다차원 공간주소모델과 지리공간 블록체인 기술 개발</h2>
+									<span class="position">교육부</span>
+									<p>공간주소 모델을 위한 데이터 크롤링, 시각화, ESDA 및 지오해시를 활용한 스마트 컨트랙트 구현과 시각화</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2023.06-2023.12</span>
+									<h2>제3차 공간정보 인재양성 기본계획 연구</h2>
+									<span class="position">공간정보산업진흥원</span>
+									<p>공간정보 인재양성 국내외 트렌드, 동향분석, 인력 수요 검토, 시사점 도출을 위한 웹페이지 크롤링, 워드 클라우드 제작</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025.06-2026.03</span>
+									<h2>
+										2030 국가보호지역 확대 로드맵 이행계획 마련 연구
+									</h2>
+									<span class="position">기후에너지환경부</span>
+									<p>
+										전국 단위 보호지역, 기타 주제도 등 다층 공간데이터를 통합하여 PostGIS 기반 대용량 공간분석 수행 및 정책 시나리오별 면적 산정 체계 구축
+									</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025.06-2026.03</span>
+									<h2>
+										국토환경 녹색복원 후보목록 3차년도 조사연구
+									</h2>
+									<span class="position">기후에너지환경부</span>
+									<p>
+										전국 단위 훼손(의심)지역을 자동 필터링하기 위한 규칙 기반(Rule-based) 및 형태 안정성 지표 결합 알고리즘 설계
+									</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025.08-2026.03</span>
+									<h2>
+										머신러닝과 스트리트뷰 이미지(SVI)를 활용한 도시 지역 소음 평가
+									</h2>
+									<span class="position">-</span>
+									<p>머신러닝과 ViT를 활용한 소음 전파원 기반의 도시 소음 모델링 </p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025.08-2026.06</span>
+									<h2>
+										개발제한구역 환경평가 개선방안 연구
+									</h2>
+									<span class="position">국토교통부</span>
+									<p>
+										공간평가 체계를 재설계 및 환경평가 지표 가중치 시나리오를 반영한 대규모 공간 시뮬레이션 수행
+									</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025.12-2026.06</span>
+									<h2>
+										유연한 이웃 구조 알고리즘을 기반으로 한 따릉이 출발-목적지 흐름의 시공간 클러스터 분석
+									</h2>
+									<span class="position">-</span>
+									<p>공간구조별 유연한 이웃 정의 알고리즘을 개발하고 이를 바탕으로 시공간 클러스터 평가 수행</p>
+								</div>
+							</div>
+
+						</div>
+						<div id="page-5" class="page five">
+							<h2 id="publications-section" class="heading">Publications</h2>
+
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2025</span>
+									<div class="d-flex">
+										<h2>Enhancing smart city infrastructure with a geospatial blockchain-based addressing system</h2>
+										<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.1016/j.cities.2025.105757">DOI</a></div>
+									</div>
+									<span class="position">J Lee, B Yang</span>
+									<p>Cities</p>
+								</div>
+							</div>
+
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2024</span>
+									<div class="d-flex">
+										<h2>Establishing a Geospatial Blockchain and Web-based Mapping Platform for Address Intelligence Information: A Focus on Cultural Heritage Sites</h2>
+										<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.7848/ksgpc.2024.42.6.665">DOI</a></div>
+									</div>
+									<span class="position">B Yang, S Jo, J Lee</span>
+									<p>Journal of the Korean Society of Surveying, Geodesy, Photogrammetry and Cartography</p>
+								</div>
+							</div>
+
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2024</span>
+									<div class="d-flex">
+										<h2>Developing an Address of Space Model Using Smart Contract of Geospatial Blockchain</h2>
+										<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank" href="https://doi.org/10.7848/ksgpc.2022.40.6.655">DOI</a></div>
+									</div>
+									<span class="position">J Lee, B Yang</span>
+									<p>Journal of the Korean Society of Surveying, Geodesy, Photogrammetry and Cartography</p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			</div>
+</div>
 		
 	</section>
 
