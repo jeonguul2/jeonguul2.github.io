@@ -84,6 +84,40 @@
             margin-top: 2px !important;
             margint-bottom: 10px !important;
         }
+        /* 프로젝트 헤더: 제목과 버튼을 한 줄에 강제 배치 */
+        .project-header {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important; /* 제목과 버튼의 높이를 맞춤 */
+            width: 100%;
+            flex-wrap: nowrap !important; /* 절대 밑으로 내려가지 않게 강제 */
+            margin-bottom: 10px;
+        }
+
+            /* 제목 스타일: 버튼 공간을 제외하고 나머지 공간을 다 차지함 */
+            .project-header h2 {
+                margin: 0 !important;
+                font-weight: 500 !important;
+                font-size: 20px !important;
+                color: #262626 !important;
+                flex: 1; /* 제목이 가변적으로 늘어남 */
+                padding-right: 20px; /* 버튼과의 최소 간격 확보 */
+                word-break: keep-all; /* 단어 단위로 줄바꿈하여 가독성 유지 */
+            }
+
+        /* 버튼 그룹 스타일: 한 줄 유지 및 우측 정렬 */
+        .project-btns {
+            display: flex !important;
+            gap: 5px;
+            flex-shrink: 0; /* 버튼 상자가 찌그러지지 않게 고정 */
+            white-space: nowrap; /* 버튼 글자가 깨지지 않게 함 */
+        }
+
+            .project-btns .btn {
+                padding: 4px 10px !important;
+                font-size: 11px !important;
+                line-height: 1.2;
+            }
     </style>
 </head>
 
