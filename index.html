@@ -118,6 +118,20 @@
                 font-size: 11px !important;
                 line-height: 1.2;
             }
+        /* 프로필 아이콘 링크 스타일 */
+        .profile-icon {
+            display: block;
+            width: 80px; /* 아이콘 가로 크기 */
+            height: 80px; /* 아이콘 세로 크기 */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 0.3s ease;
+        }
+
+            .profile-icon:hover {
+                transform: scale(1.1); /* 마우스 올렸을 때 살짝 커짐 */
+            }
     </style>
 </head>
 
@@ -149,7 +163,7 @@
 							</span>
 						</a>
 					</li>
-					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>Links</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -635,8 +649,8 @@
 								 style="background-image: url(images/side-project-1.png); ">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a target="_blank" href="https://qpi.kr/"> 스포츠 빅데이터 전략 시뮬레이션 모델</a></h3>
-									<span>문제정의부터 데이터 설계, 퍼블리싱까지 진행했습니다.</span>
+									<h3><a target="_blank" href="https://fbprev4.streamlit.app/"> 스포츠 빅데이터 전략 시뮬레이션 모델</a></h3>
+									<span>Side-Project</span>
 								</div>
 							</div>
 						</div>
@@ -645,8 +659,8 @@
 								 style="background-image: url(images/work-2.jpg);">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
+									<h3><a target="_blank" href="#">강북구 어린이 교통사고 원인 분석 모델</a></h3>
+									<span>Side-Project</span>
 								</div>
 							</div>
 						</div>
@@ -656,52 +670,71 @@
 								 style="background-image: url(images/work-3.jpg);">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
+									<h3><a target="_blank" href="#">해양쓰레기 객체탐지 모델</a></h3>
+									<span>Side-Project</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-								 style="background-image: url(images/work-4.jpg);">
+								 style="background-image: url(images/side-project-4.png);">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
+									<h3><a target="_blank" href="#">대구 지역의 COVID-19 확산에 따른 지표면 온도 변화 비교</a></h3>
+									<span>Side-Project</span> 
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-								 style="background-image: url(images/work-5.jpg);">
+								 style="background-image: url(images/side-project-5.png);">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
+									<h3><a href="#">ING</a></h3>
+									<span>Side-Project</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-								 style="background-image: url(images/work-6.jpg);">
+								 style="background-image: url(images/side-project-5.png);">
 								<div class="overlay"></div>
 								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
+									<h3><a href="#">ING</a></h3>
+									<span>Side-Project</span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<section class="ftco-section" id="blog-section">
+				<div class="container">
+					<div class="row justify-content-center mb-5 pb-3">
+						<div class="col-md-7 heading-section text-center ftco-animate">
+							<h1 class="big big-2">Links</h1>
+							<h2 class="mb-4">Profiles</h2>
+
+							<div class="d-flex justify-content-center mt-4">
+								<a href="https://github.com/jeonguul2" target="_blank" class="mx-4 profile-icon" style="background-image: url('images/links-1.png');" title="GitHub"></a>
+
+								<a href="https://www.linkedin.com/in/jeongu-lee-99176a287/" target="_blank" class="mx-4 profile-icon" style="background-image: url('images/links-2.png');" title="LinkedIn"></a>
+
+								<a href="https://www.notion.so/21689a525d2880d68cd6e6e25776d9f2?v=21689a525d288198a8fa000c953b3622&source=copy_link" target="_blank" class="mx-4 profile-icon" style="background-image: url('images/links-3.png');" title="Notion"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!--<section class="ftco-section" id="blog-section">
 				<div class="container">
 					<div class="row justify-content-center mb-5 pb-5">
 						<div class="col-md-7 heading-section text-center ftco-animate">
 							<h1 class="big big-2">Blog</h1>
-							<h2 class="mb-4">My Blog</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<h2 class="mb-4">Links</h2>
+							<p>Profiles</p>
 						</div>
 					</div>
 					<div class="row d-flex">
@@ -773,9 +806,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
-
-		
+			</section>-->
 
 			<footer class="ftco-footer ftco-section">
 				<div class="container">
